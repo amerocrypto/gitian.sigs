@@ -2,19 +2,19 @@
 uses: frabert/replace-string-action@v2.0
 with:
   pattern: ''
-  string: 'dashd'
+  string: 'amerox'
   replace-with: 'amerox'
   
   - name: Replace string
 uses: frabert/replace-string-action@v2.0
 with:
   pattern: ''
-  string: 'dash'
+  string: 'amero'
   replace-with: 'amero'
 
   - name: Replace string
 uses: frabert/replace-string-action@v2.0
 with:
   pattern: ''
-  string: 'Dash'
+  string: 'Amero'
   replace-with: 'Amero'

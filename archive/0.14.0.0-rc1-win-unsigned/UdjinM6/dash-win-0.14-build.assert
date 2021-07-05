@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    221f2b3c6845e116b55bd3fa1878c786a7d0cd2b44609f4a10dc333af6b40dc2  dashcore-0.14.0-win-unsigned.tar.gz
-    d92fdfc3af883084c50c65010e9c3c70f10f2e3af063131e46620f7ed469f09d  dashcore-0.14.0-win32-debug.zip
-    8f97c8be39d0c35dd4b267135fda0606c786d374c8a46f2b044d2a34fe86ee03  dashcore-0.14.0-win32-setup-unsigned.exe
-    e1c7addbc3d0a4a26ee3a96b020e7a31d168cb284fcd82c83ffa29d5001c777d  dashcore-0.14.0-win32.zip
-    849e8af7781f506a4a92aef38e6bb3862f9dac64f68daab4d90ca9f991f787eb  dashcore-0.14.0-win64-debug.zip
-    38104d3bb7c71048b1a5b248991825f9eda15c0f5e89c86840e8221271cf1e1d  dashcore-0.14.0-win64-setup-unsigned.exe
-    9529c5ad18d05a3ee6e046b97d33c32f0b02a52d93fe6ec64c1e383139658bc5  dashcore-0.14.0-win64.zip
-    db5ac6d56e8c4071ad675c933107a14ac623c246e627ef5a5d63fbe9162eb2f9  src/dashcore-0.14.0.tar.gz
+    221f2b3c6845e116b55bd3fa1878c786a7d0cd2b44609f4a10dc333af6b40dc2  amerocore-0.14.0-win-unsigned.tar.gz
+    d92fdfc3af883084c50c65010e9c3c70f10f2e3af063131e46620f7ed469f09d  amerocore-0.14.0-win32-debug.zip
+    8f97c8be39d0c35dd4b267135fda0606c786d374c8a46f2b044d2a34fe86ee03  amerocore-0.14.0-win32-setup-unsigned.exe
+    e1c7addbc3d0a4a26ee3a96b020e7a31d168cb284fcd82c83ffa29d5001c777d  amerocore-0.14.0-win32.zip
+    849e8af7781f506a4a92aef38e6bb3862f9dac64f68daab4d90ca9f991f787eb  amerocore-0.14.0-win64-debug.zip
+    38104d3bb7c71048b1a5b248991825f9eda15c0f5e89c86840e8221271cf1e1d  amerocore-0.14.0-win64-setup-unsigned.exe
+    9529c5ad18d05a3ee6e046b97d33c32f0b02a52d93fe6ec64c1e383139658bc5  amerocore-0.14.0-win64.zip
+    db5ac6d56e8c4071ad675c933107a14ac623c246e627ef5a5d63fbe9162eb2f9  src/amerocore-0.14.0.tar.gz
 - in_manifest: |-
-    d1c3d816027e2b0f6c678f68ca48a42efe2c55d45378b198720a4c09966abcdf  dash-win-0.14-desc.yml
-    git:8987a6c3e0cbd3ba9862833b5d9638dc54fd8776 dash
+    d1c3d816027e2b0f6c678f68ca48a42efe2c55d45378b198720a4c09966abcdf  amero-win-0.14-desc.yml
+    git:8987a6c3e0cbd3ba9862833b5d9638dc54fd8776 amero
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -39,7 +39,7 @@
       8c37f4a0db4ebd450fe25398030b4b926939940c8673771b461a06f954552287  cpp_4%3a7.3.0-3ubuntu2.1_amd64.deb
       c985060d2c889081c311757a06df281a6bbdb83c563f43c86b3c89f934bd0d15  crda_3.18-1build1_amd64.deb
       fe197ee8085f56d608f76ba663c8b7a141e51b39dc0131fbc6c31ea882730468  curl_7.58.0-2ubuntu3.6_amd64.deb
-      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  dash_0.5.8-2.10_amd64.deb
+      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  amero_0.5.8-2.10_amd64.deb
       4d15dfec3cac2d9edae8d57703bd01d05027e0fb5c1e3f4f54539768ddfd8c83  debconf_1.5.66_all.deb
       2956dc70a0bd3a56365922c8f90cf9b9d0917a0308d6ea310e0f94d8ea4e11bf  debianutils_4.8.4_amd64.deb
       4a2f0f62cb9c7bc00d535e85f5629eb9f513e9c6161474a95445db1c446b5dc1  diffutils_1%3a3.6-1_amd64.deb
@@ -417,6 +417,6 @@
     4003e2f907ff858ad6e730e053937f5d883bdbe55f51212be4d31acc1912aab3  depends/x86_64-w64-mingw32/zlib/zlib-1.2.11-cd0fc25c39e.tar.gz
     8b3deccafd111dd5d2e2080d98de39159ee9dcc8fe1713cb923f1ea19a12d2e8  depends/x86_64-w64-mingw32/zlib/zlib-1.2.11-cd0fc25c39e.tar.gz.hash
 - release: 0.14.0.0-rc1-win-unsigned
-- name: dash-win-0.14
+- name: amero-win-0.14
 - type: build
 - optionals: 

@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    4b10f9d69d0307ea203434c9367231b14a8b7f709db9f83410e7e438a1c132d0  dashcore-0.12.3-osx-unsigned.dmg
-    41fb8ea2347b1a8b6f49bf0840eaec058fdbc17f4d80e7fa38a356cbb5746195  dashcore-0.12.3-osx-unsigned.tar.gz
-    88adae90fecada36e19abe2acdcf53c3c0fd17f69eb79906ba9adda2dd9c70b9  dashcore-0.12.3-osx64.tar.gz
-    c7e146b0927f03312d6f7420433cd93c1558dfed57ecc42ec273d592f4aeeb96  src/dashcore-0.12.3.tar.gz
+    4b10f9d69d0307ea203434c9367231b14a8b7f709db9f83410e7e438a1c132d0  amerocore-0.12.3-osx-unsigned.dmg
+    41fb8ea2347b1a8b6f49bf0840eaec058fdbc17f4d80e7fa38a356cbb5746195  amerocore-0.12.3-osx-unsigned.tar.gz
+    88adae90fecada36e19abe2acdcf53c3c0fd17f69eb79906ba9adda2dd9c70b9  amerocore-0.12.3-osx64.tar.gz
+    c7e146b0927f03312d6f7420433cd93c1558dfed57ecc42ec273d592f4aeeb96  src/amerocore-0.12.3.tar.gz
 - in_manifest: |-
-    5b0bdaf763fb3e6207c7aeff322cadbd7b457ef24f987b23bad236a45e4e0825  dash-osx-0.12-desc.yml
+    5b0bdaf763fb3e6207c7aeff322cadbd7b457ef24f987b23bad236a45e4e0825  amero-osx-0.12-desc.yml
     bec9d089ebf2e2dd59b1a811a38ec78ebd5da18cbbcd6ab39d1e59f64ac5033f  MacOSX10.11.sdk.tar.gz
-    git:1deab35186f9c50b72c39d4ce76f02d173ad8124 dash
+    git:1deab35186f9c50b72c39d4ce76f02d173ad8124 amero
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -37,7 +37,7 @@
       60a508d9e32161fbb5a6f8f31a7f06044e12f74061c85b1795b79d35550ec8c4  crda_1.1.2-1ubuntu2_amd64.deb
       40fb20e8588676d056705e7888d61ad32f00ad8e0fad9ce20485044b68afe249  cron_3.0pl1-124ubuntu2_amd64.deb
       4b429402761bd04b1984863b1ec64246157c69bb127f6d42817211d289d173d0  curl_7.35.0-1ubuntu2.16_amd64.deb
-      5befdfa1b3adc0c41e43d4fa1b3c960efe54f170d434c85d94012611024c6069  dash_0.5.7-4ubuntu1_amd64.deb
+      5befdfa1b3adc0c41e43d4fa1b3c960efe54f170d434c85d94012611024c6069  amero_0.5.7-4ubuntu1_amd64.deb
       3c9d7a9b6effbd3dc55efee17f8ead42afe1f04a8a540573dae8525e1a9e9143  dconf-gsettings-backend_0.20.0-1_amd64.deb
       9ef17fb416021c1799dc98d9e184993c9c446e855ab997dedb1d91ce6723eda3  dconf-service_0.20.0-1_amd64.deb
       4abe6a0ae30ef2f6daa8c6053f64472cd4f82d29eb5c293ee7887a0a4a234b6e  debconf-i18n_1.5.51ubuntu2_all.deb
@@ -494,6 +494,6 @@
     c17e18a2312290b3f5af637f148f03f2b393f0fcd0c6b77fb934ca270aee0f75  x86_64-apple-darwin11/zlib/zlib-1.2.11-9fa8f712560.tar.gz
     10bcc578e146250d6eb3432d08f61c67eb53c6d90a14fe4762886cbf936af2c7  x86_64-apple-darwin11/zlib/zlib-1.2.11-9fa8f712560.tar.gz.hash
 - release: 0.12.3.1-osx-unsigned
-- name: dash-osx-0.12
+- name: amero-osx-0.12
 - type: build
 - optionals: 

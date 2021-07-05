@@ -1,10 +1,10 @@
 --- !!omap
-- out_manifest: '49a5ca7364b62f9908239e12da8181c9bbe8b7ca6508bc569f05907800af084c  dashcore-osx-signed.dmg
+- out_manifest: '49a5ca7364b62f9908239e12da8181c9bbe8b7ca6508bc569f05907800af084c  amerocore-osx-signed.dmg
 
 '
 - in_manifest: |-
-    3622d30a476bc6dbe26865561316211d496ee1335e2994c076de207f26ecd5ce  dash-dmg-signer-desc.yml
-    9f20234b1aa0d4ff6466d83b2959f178e0e3882d70682c50d9a781c24bf54e9c  dashcore-osx-unsigned.tar.gz
+    3622d30a476bc6dbe26865561316211d496ee1335e2994c076de207f26ecd5ce  amero-dmg-signer-desc.yml
+    9f20234b1aa0d4ff6466d83b2959f178e0e3882d70682c50d9a781c24bf54e9c  amerocore-osx-unsigned.tar.gz
     git:442532e9e27a169afd96244731403216cd7b7485 signature
 - base_manifests: !!omap
   - bionic-amd64: |
@@ -24,7 +24,7 @@
       54ef20b753876e38ac478f05170ef1c4fc856db12b1dfaa0ffb14e220e527d61  cpp-7_7.5.0-3ubuntu1~18.04_amd64.deb
       6587837e97571bf64e5b673d0f0923b52e3f4e601e15df3907f9a246dd3eaae4  cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb
       c985060d2c889081c311757a06df281a6bbdb83c563f43c86b3c89f934bd0d15  crda_3.18-1build1_amd64.deb
-      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  dash_0.5.8-2.10_amd64.deb
+      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  amero_0.5.8-2.10_amd64.deb
       132ac2ac86f2ddda238ca3a09a4d1a32a2841d05c2c489ed4d747d3cf66970ef  debconf_1.5.66ubuntu1_all.deb
       2956dc70a0bd3a56365922c8f90cf9b9d0917a0308d6ea310e0f94d8ea4e11bf  debianutils_4.8.4_amd64.deb
       4a2f0f62cb9c7bc00d535e85f5629eb9f513e9c6161474a95445db1c446b5dc1  diffutils_1%3a3.6-1_amd64.deb
@@ -229,6 +229,6 @@
 - cache_common_manifest: ''
 - cache_package_manifest: ''
 - release: 0.16.1.1-osx-signed
-- name: dash-dmg-signer
+- name: amero-dmg-signer
 - type: build
 - optionals: 

@@ -1,11 +1,11 @@
 --- !omap
 - out_manifest: |
-    3b81f036c7d38d52fd0a57f3ded45173b27a6fe1b137092ed629db308890ba87  dash-0.12.0-linux32.tar.gz
-    cd645b1dead2ece19f1ca9805decd314cc6b3970499dd02ab5273578e5ba663c  dash-0.12.0-linux64.tar.gz
-    a82509eb6b8c30bb0570124fb27c4f5317eb9aa7e636893e3bd103149f7276f1  src/dash-0.12.0.tar.gz
+    3b81f036c7d38d52fd0a57f3ded45173b27a6fe1b137092ed629db308890ba87  amero-0.12.0-linux32.tar.gz
+    cd645b1dead2ece19f1ca9805decd314cc6b3970499dd02ab5273578e5ba663c  amero-0.12.0-linux64.tar.gz
+    a82509eb6b8c30bb0570124fb27c4f5317eb9aa7e636893e3bd103149f7276f1  src/amero-0.12.0.tar.gz
 - in_manifest: |-
-    2ad843777850511195a233f8125fb9df439c072f593fa4db7915fd5e386df80b  dash-linux-0.12-desc.yml
-    git:7154cdf51bbe02df7f996eaffef586e5ce24179c dash
+    2ad843777850511195a233f8125fb9df439c072f593fa4db7915fd5e386df80b  amero-linux-0.12-desc.yml
+    git:7154cdf51bbe02df7f996eaffef586e5ce24179c amero
 - base_manifests: !omap
   - precise-amd64: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
@@ -48,7 +48,7 @@
       62e8a4cbc565835ee344cd4abfa25c56478b32e7561964170b2fd7c881ea93bd  cpp_4%3a4.6.3-1ubuntu5_amd64.deb
       32d604bc1c307a9d98fc71015fd387b35e857273f64106852bb3343d1110b0cc  cron_3.0pl1-120ubuntu3_amd64.deb
       da50a76a7727908d425a26252d8b87dc742919f9cec2103697e3a18cb9f5dfc9  cron_3.0pl1-120ubuntu4_amd64.deb
-      f239880c28adb06d164f1533a2f3d8b78607bb4ad91b9a3dba161675b01d06cf  dash_0.5.7-2ubuntu2_amd64.deb
+      f239880c28adb06d164f1533a2f3d8b78607bb4ad91b9a3dba161675b01d06cf  amero_0.5.7-2ubuntu2_amd64.deb
       f17ae604de9dffae050053a3f937c5959a78cb8ba3435cddff682b2ee58ab6b2  debconf-i18n_1.5.42ubuntu1_all.deb
       4cbd79672c600fece1a39e7c37974a7a9be78e9ff45e376e9b48beaf67b2a89c  debconf_1.5.42ubuntu1_all.deb
       64e958bee37b656227e3be1549d230ba130b30752c321db157958105e956cecf  debianutils_4.2.1ubuntu2_amd64.deb
@@ -553,6 +553,6 @@
     e5025e38e5586fe6a2b3ad773ca5851cadfeef27986dcacf67f11a4c2063665b  x86_64-unknown-linux-gnu/xtrans/xtrans-1.3.4-0a3fb400a7b.tar.gz
     e5025e38e5586fe6a2b3ad773ca5851cadfeef27986dcacf67f11a4c2063665b  x86_64-unknown-linux-gnu/xtrans/xtrans-1.3.4-85fb7b4afeb.tar.gz
 - release: 0.12.0.56-linux
-- name: dash-linux-0.12
+- name: amero-linux-0.12
 - type: build
 - optionals: 

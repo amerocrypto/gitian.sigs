@@ -1,11 +1,11 @@
 --- !!omap
 - out_manifest: |
-    dced7d9588e80d3d97d2c06fb2352e0ccb97e23698ed78f2db21d94c6550f2e4  dashcore-0.16.1-win32-setup.exe
-    72daff27358d87c1154161e04bf4cb4091ef8cf506b196503c4e58f943913030  dashcore-0.16.1-win64-setup.exe
+    dced7d9588e80d3d97d2c06fb2352e0ccb97e23698ed78f2db21d94c6550f2e4  amerocore-0.16.1-win32-setup.exe
+    72daff27358d87c1154161e04bf4cb4091ef8cf506b196503c4e58f943913030  amerocore-0.16.1-win64-setup.exe
 - in_manifest: |-
-    9af9b8ec45f6fed727f25308e4002978cc0231556844f81b4275c7ac1d589c2e  dash-win-signer-desc.yml
+    9af9b8ec45f6fed727f25308e4002978cc0231556844f81b4275c7ac1d589c2e  amero-win-signer-desc.yml
     5a60e0a4b3e0b4d655317b2f12a810211c50242138322b16e7e01c6fbb89d92f  osslsigncode-2.0.tar.gz
-    93dbcee054fc767bbfd220415198a3b97c92f69f01041e1c196db6ae4b1a488d  dashcore-win-unsigned.tar.gz
+    93dbcee054fc767bbfd220415198a3b97c92f69f01041e1c196db6ae4b1a488d  amerocore-win-unsigned.tar.gz
     git:442532e9e27a169afd96244731403216cd7b7485 signature
 - base_manifests: !!omap
   - bionic-amd64: |
@@ -30,7 +30,7 @@
       54ef20b753876e38ac478f05170ef1c4fc856db12b1dfaa0ffb14e220e527d61  cpp-7_7.5.0-3ubuntu1~18.04_amd64.deb
       6587837e97571bf64e5b673d0f0923b52e3f4e601e15df3907f9a246dd3eaae4  cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb
       c985060d2c889081c311757a06df281a6bbdb83c563f43c86b3c89f934bd0d15  crda_3.18-1build1_amd64.deb
-      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  dash_0.5.8-2.10_amd64.deb
+      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  amero_0.5.8-2.10_amd64.deb
       132ac2ac86f2ddda238ca3a09a4d1a32a2841d05c2c489ed4d747d3cf66970ef  debconf_1.5.66ubuntu1_all.deb
       2956dc70a0bd3a56365922c8f90cf9b9d0917a0308d6ea310e0f94d8ea4e11bf  debianutils_4.8.4_amd64.deb
       4a2f0f62cb9c7bc00d535e85f5629eb9f513e9c6161474a95445db1c446b5dc1  diffutils_1%3a3.6-1_amd64.deb
@@ -251,6 +251,6 @@
 - cache_common_manifest: ''
 - cache_package_manifest: ''
 - release: 0.16.1.1-win-signed
-- name: dash-win-signer
+- name: amero-win-signer
 - type: build
 - optionals: 

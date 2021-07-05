@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    6ed44c6507c4098344ad7441f8aba990c06dd6f623a412d1d7a2387a12005084  dashcore-0.17.0-win-unsigned.tar.gz
-    ad118addf2f222663ed7949eaec576d37f20db82e7cf0ed0a0945f8f835c58a9  dashcore-0.17.0-win32-debug.zip
-    d993426716291d42be909a6676446eac8342ec25e00e7b977e10dc45cd51a13e  dashcore-0.17.0-win32-setup-unsigned.exe
-    4a41c5a4cb51ae84df3195bfa991b3110b02b28dd53d0dcf3139303395952f6b  dashcore-0.17.0-win32.zip
-    9d56683e5df0e5fe550d9e318996fb5aeb8c5152194d8227d977a936dc3e6e15  dashcore-0.17.0-win64-debug.zip
-    faf47d8a1201c99627b113c7e064327bc57b1970ac55a728203d6801adae497e  dashcore-0.17.0-win64-setup-unsigned.exe
-    29eebb98527b1564dbf3726eb42b41406a2e17cd7edb9d98e4d94d740aeb3726  dashcore-0.17.0-win64.zip
-    a7fbc1192bd6ff6d3ff8a1d5a116adc8e3ea2b5db0ef1db9849f20ef5cb257f7  src/dashcore-0.17.0.tar.gz
+    6ed44c6507c4098344ad7441f8aba990c06dd6f623a412d1d7a2387a12005084  amerocore-0.17.0-win-unsigned.tar.gz
+    ad118addf2f222663ed7949eaec576d37f20db82e7cf0ed0a0945f8f835c58a9  amerocore-0.17.0-win32-debug.zip
+    d993426716291d42be909a6676446eac8342ec25e00e7b977e10dc45cd51a13e  amerocore-0.17.0-win32-setup-unsigned.exe
+    4a41c5a4cb51ae84df3195bfa991b3110b02b28dd53d0dcf3139303395952f6b  amerocore-0.17.0-win32.zip
+    9d56683e5df0e5fe550d9e318996fb5aeb8c5152194d8227d977a936dc3e6e15  amerocore-0.17.0-win64-debug.zip
+    faf47d8a1201c99627b113c7e064327bc57b1970ac55a728203d6801adae497e  amerocore-0.17.0-win64-setup-unsigned.exe
+    29eebb98527b1564dbf3726eb42b41406a2e17cd7edb9d98e4d94d740aeb3726  amerocore-0.17.0-win64.zip
+    a7fbc1192bd6ff6d3ff8a1d5a116adc8e3ea2b5db0ef1db9849f20ef5cb257f7  src/amerocore-0.17.0.tar.gz
 - in_manifest: |-
-    268a9f73a0a7482951c05c0f9df9ccce4b4cfe65da9763bca4b1e454e9dfd498  dash-win-0.17-desc.yml
-    git:79a1b1aa47459c3c14f675c65822e9d3709a47e8 dash
+    268a9f73a0a7482951c05c0f9df9ccce4b4cfe65da9763bca4b1e454e9dfd498  amero-win-0.17-desc.yml
+    git:79a1b1aa47459c3c14f675c65822e9d3709a47e8 amero
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -40,7 +40,7 @@
       6587837e97571bf64e5b673d0f0923b52e3f4e601e15df3907f9a246dd3eaae4  cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb
       c985060d2c889081c311757a06df281a6bbdb83c563f43c86b3c89f934bd0d15  crda_3.18-1build1_amd64.deb
       398fa38ada029295e1f49b72e19f1ac9770fae1de86f147a24d2879c548ba882  curl_7.58.0-2ubuntu3.13_amd64.deb
-      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  dash_0.5.8-2.10_amd64.deb
+      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  amero_0.5.8-2.10_amd64.deb
       132ac2ac86f2ddda238ca3a09a4d1a32a2841d05c2c489ed4d747d3cf66970ef  debconf_1.5.66ubuntu1_all.deb
       2956dc70a0bd3a56365922c8f90cf9b9d0917a0308d6ea310e0f94d8ea4e11bf  debianutils_4.8.4_amd64.deb
       4a2f0f62cb9c7bc00d535e85f5629eb9f513e9c6161474a95445db1c446b5dc1  diffutils_1%3a3.6-1_amd64.deb
@@ -286,8 +286,8 @@
 - cache_common_manifest: |
     a09c9ba4684670a0375e42d9d67e7f12c1f62581a27f28f7c825d6d7032ccc6a  807d6fd1be5d2224872e381870c0a75387fe05e6.tar.gz
     4c0549764c5fe50b28042ec21aa2e14fe1a2224e239a1dae77d9e7f3932aa4c6  biplist-1.0.3.tar.gz
-    cff7552d8ebd6d29141f1acfa65b7d956c803b575baaaf076d4aea3c32178116  bls-dash-1.0.1.tar.gz
-    276c8573104e5f18bb5b9fd3ffd49585dda5ba5f6de2de74759dda8ca5a9deac  bls-dash-1.1.0.tar.gz
+    cff7552d8ebd6d29141f1acfa65b7d956c803b575baaaf076d4aea3c32178116  bls-amero-1.0.1.tar.gz
+    276c8573104e5f18bb5b9fd3ffd49585dda5ba5f6de2de74759dda8ca5a9deac  bls-amero-1.1.0.tar.gz
     430ae8354789de4fd19ee52f3b1f739e1fba576f0aded0897c3c2bc00fb38778  boost_1_70_0.tar.bz2
     b50d64c214a65b1a79afe3a964c691931a4233e2ba605d793eb85d0ac3652564  cdrkit-1.1.11.tar.bz2
     99b28a6b48e793705228a390471991386daa33a9717cd9ca007fcdde69608fd9  clang-llvm-3.7.1-x86_64-linux-gnu-ubuntu-14.04.tar.xz
@@ -296,8 +296,8 @@
     6049ddd5f3f3e2618f615f1faeda0a115104423a7996b7aa73e2f36e38cc514a  dbus-1.10.18.tar.gz
     1435569f32cee722e4d90f55678404f503828e64b60d2ff7d048611e5788a974  download-stamps/.stamp_fetched-backtrace-rust-snapshot-2018-05-22.tar.gz.hash
     535bec5356b1ff4a753fcd87f14509297d2fa044955d3bb0308e5c2e54bb2d09  download-stamps/.stamp_fetched-bdb-db-4.8.30.NC.tar.gz.hash
-    63de5314ed8b776dadb4b89ea448a577a84e63f1338aab3ff44353cbb8525ac2  download-stamps/.stamp_fetched-bls-dash-bls-dash-1.0.1.tar.gz.hash
-    38f1a4d377b869d0563f2d7bd525eca1e7193eee2e5bafc3b4f05c9c5f711b93  download-stamps/.stamp_fetched-bls-dash-bls-dash-1.1.0.tar.gz.hash
+    63de5314ed8b776dadb4b89ea448a577a84e63f1338aab3ff44353cbb8525ac2  download-stamps/.stamp_fetched-bls-amero-bls-amero-1.0.1.tar.gz.hash
+    38f1a4d377b869d0563f2d7bd525eca1e7193eee2e5bafc3b4f05c9c5f711b93  download-stamps/.stamp_fetched-bls-amero-bls-amero-1.1.0.tar.gz.hash
     9323e689144a6ee8d0f73f4f48d65dfcdc1d0b873c6e3cb28decd4825acf8678  download-stamps/.stamp_fetched-boost-boost_1_70_0.tar.bz2.hash
     64c17d8fb11fcb18097e50cb17b8a841d3f2631767e4d9edabf16d5affa2ee4b  download-stamps/.stamp_fetched-cmake-cmake-3.14.7.tar.gz.hash
     8593f5665da44100a147fcee43d52b28afadce1c1e641acb991e0907219c13af  download-stamps/.stamp_fetched-dbus-dbus-1.10.18.tar.gz.hash
@@ -354,12 +354,12 @@
     41fbef40af519566cebf629c2228af65c94c4b974653ea6e27ac5b967e9f55b2  depends/i686-w64-mingw32/backtrace/backtrace-rust-snapshot-2018-05-22-54dd5ef8c1a.tar.gz.hash
     4ccaec74b5aec80989c638e388c8fab92e66e3ef920a4b8244d7fc58946d7d09  depends/i686-w64-mingw32/bdb/bdb-4.8.30-0be22bc1057.tar.gz
     753fd08f6eddf57092bbfa1f1c68cb72b094c5b4a520927bd328638870eb5247  depends/i686-w64-mingw32/bdb/bdb-4.8.30-0be22bc1057.tar.gz.hash
-    d83b8a948881a475935db63f85a65364db7d60a6fef88e1105f321f94a10dec0  depends/i686-w64-mingw32/bls-dash/bls-dash-1.0.1-094d56c26dd.tar.gz
-    d2adcb948661efaeed9752e661b80077fe2be20fd1465d227341df811cb5de86  depends/i686-w64-mingw32/bls-dash/bls-dash-1.0.1-094d56c26dd.tar.gz.hash
-    4cdb4da7ae468b7011f8c8f16cdeccac106cbace57ab934dcef581fd3afa8956  depends/i686-w64-mingw32/bls-dash/bls-dash-1.0.1-beba49be50f.tar.gz
-    845f5664df5f2246dc43bdf8f570028151a5552a30c770fe3b38c7cd99068513  depends/i686-w64-mingw32/bls-dash/bls-dash-1.0.1-beba49be50f.tar.gz.hash
-    fa3d9bcb71677b448b97e33a4936cd9497ea15246844c8210cae2a4afd53c508  depends/i686-w64-mingw32/bls-dash/bls-dash-1.1.0-eb80c71571d.tar.gz
-    6d13c55151254fab43706e780f00d45adf376d0ac9731e2de3a0b9e19f7dcc3e  depends/i686-w64-mingw32/bls-dash/bls-dash-1.1.0-eb80c71571d.tar.gz.hash
+    d83b8a948881a475935db63f85a65364db7d60a6fef88e1105f321f94a10dec0  depends/i686-w64-mingw32/bls-amero/bls-amero-1.0.1-094d56c26dd.tar.gz
+    d2adcb948661efaeed9752e661b80077fe2be20fd1465d227341df811cb5de86  depends/i686-w64-mingw32/bls-amero/bls-amero-1.0.1-094d56c26dd.tar.gz.hash
+    4cdb4da7ae468b7011f8c8f16cdeccac106cbace57ab934dcef581fd3afa8956  depends/i686-w64-mingw32/bls-amero/bls-amero-1.0.1-beba49be50f.tar.gz
+    845f5664df5f2246dc43bdf8f570028151a5552a30c770fe3b38c7cd99068513  depends/i686-w64-mingw32/bls-amero/bls-amero-1.0.1-beba49be50f.tar.gz.hash
+    fa3d9bcb71677b448b97e33a4936cd9497ea15246844c8210cae2a4afd53c508  depends/i686-w64-mingw32/bls-amero/bls-amero-1.1.0-eb80c71571d.tar.gz
+    6d13c55151254fab43706e780f00d45adf376d0ac9731e2de3a0b9e19f7dcc3e  depends/i686-w64-mingw32/bls-amero/bls-amero-1.1.0-eb80c71571d.tar.gz.hash
     324a5614d23975dd47671f057392352165c9595aabffd62d73809066cf4eeb0b  depends/i686-w64-mingw32/boost/boost-1_70_0-158dd11c4b0.tar.gz
     26a6320449c50bdd756ed088ba188f8b75950dd0912112d78e6eb82fa1233d2a  depends/i686-w64-mingw32/boost/boost-1_70_0-158dd11c4b0.tar.gz.hash
     c904ce294d7bc6ef366ba1cc31ba429f7d14be870fc545d7011f1468b812f81b  depends/i686-w64-mingw32/boost/boost-1_70_0-59d87180b38.tar.gz
@@ -392,12 +392,12 @@
     125696640b40e6857c8942d52cc989d013b8b7afc7b7c06a10312842d589ea66  depends/x86_64-w64-mingw32/backtrace/backtrace-rust-snapshot-2018-05-22-15322c42acb.tar.gz.hash
     1900abb860ca673b8ecea44671e5c6f8aab6f3785e62696627f6ee469a1292ab  depends/x86_64-w64-mingw32/bdb/bdb-4.8.30-3ec29381cbe.tar.gz
     768e4707c265f50afed547b5700c266c55d81f51e72e957329c8b40d4729084d  depends/x86_64-w64-mingw32/bdb/bdb-4.8.30-3ec29381cbe.tar.gz.hash
-    8e3968cd033584fbf3fbe6d634b378694ded3d3105a18a028e9520ebbb721459  depends/x86_64-w64-mingw32/bls-dash/bls-dash-1.0.1-329026ad0c1.tar.gz
-    dea9952af9fb9c43acce65537a6c278d14549f0777c5b74ba5b62754567fe54a  depends/x86_64-w64-mingw32/bls-dash/bls-dash-1.0.1-329026ad0c1.tar.gz.hash
-    d31a2029034977cb8a35f0ef2c24f98dda3f22da11a45daf7be6bd98c64b02d3  depends/x86_64-w64-mingw32/bls-dash/bls-dash-1.0.1-59a859664a6.tar.gz
-    8dbdb86c1a947668f1f032db5190a8aed1999f74bf6b5c1344e7f98fa3948d77  depends/x86_64-w64-mingw32/bls-dash/bls-dash-1.0.1-59a859664a6.tar.gz.hash
-    f05963aacc12ff38d8d8ec4a887bc1018385418b8db4b48468caf0b95243f3d9  depends/x86_64-w64-mingw32/bls-dash/bls-dash-1.1.0-22b472f6beb.tar.gz
-    f87de44b009f670c4d9c8490a59ab2e20fafccca4b00de1e4c69a9baff8eb88d  depends/x86_64-w64-mingw32/bls-dash/bls-dash-1.1.0-22b472f6beb.tar.gz.hash
+    8e3968cd033584fbf3fbe6d634b378694ded3d3105a18a028e9520ebbb721459  depends/x86_64-w64-mingw32/bls-amero/bls-amero-1.0.1-329026ad0c1.tar.gz
+    dea9952af9fb9c43acce65537a6c278d14549f0777c5b74ba5b62754567fe54a  depends/x86_64-w64-mingw32/bls-amero/bls-amero-1.0.1-329026ad0c1.tar.gz.hash
+    d31a2029034977cb8a35f0ef2c24f98dda3f22da11a45daf7be6bd98c64b02d3  depends/x86_64-w64-mingw32/bls-amero/bls-amero-1.0.1-59a859664a6.tar.gz
+    8dbdb86c1a947668f1f032db5190a8aed1999f74bf6b5c1344e7f98fa3948d77  depends/x86_64-w64-mingw32/bls-amero/bls-amero-1.0.1-59a859664a6.tar.gz.hash
+    f05963aacc12ff38d8d8ec4a887bc1018385418b8db4b48468caf0b95243f3d9  depends/x86_64-w64-mingw32/bls-amero/bls-amero-1.1.0-22b472f6beb.tar.gz
+    f87de44b009f670c4d9c8490a59ab2e20fafccca4b00de1e4c69a9baff8eb88d  depends/x86_64-w64-mingw32/bls-amero/bls-amero-1.1.0-22b472f6beb.tar.gz.hash
     166fcc0f768e4fb910bae458dfca5a7578b636f92763199228cc2b7737672685  depends/x86_64-w64-mingw32/boost/boost-1_70_0-45b54499d76.tar.gz
     03cef4d456313aced8c4647c13a53083669501c23bed63f4fbc8f5568daa2ccd  depends/x86_64-w64-mingw32/boost/boost-1_70_0-45b54499d76.tar.gz.hash
     3d46774c401dfb79e2569914cece50be61ed50a2ad9ef69539f97d46596b6603  depends/x86_64-w64-mingw32/boost/boost-1_70_0-7dbe9152973.tar.gz
@@ -427,6 +427,6 @@
     996a306a9187897ff4f4f8a067b3f939a28185dd963623cdd1b0960705e2c24e  depends/x86_64-w64-mingw32/zlib/zlib-1.2.11-f2e803413e0.tar.gz
     62d9043b7b357df39fd7bf8a3708d826c61921126ebcb725d82ac26a4fa9aab0  depends/x86_64-w64-mingw32/zlib/zlib-1.2.11-f2e803413e0.tar.gz.hash
 - release: 0.17.0.2-win-unsigned
-- name: dash-win-0.17
+- name: amero-win-0.17
 - type: build
 - optionals: 

@@ -1,12 +1,12 @@
 --- !!omap
 - out_manifest: |
-    adb078691090b62e331d2eb8f2841de2e837f27b6ce8dcfef107cb9682222bd2  dashcore-0.14.0-win32-setup.exe
-    87a0af9daeb05d33be4e2cb675cb296ab7b6745079c9e65ec79850e31ac0df2f  dashcore-0.14.0-win64-setup.exe
+    adb078691090b62e331d2eb8f2841de2e837f27b6ce8dcfef107cb9682222bd2  amerocore-0.14.0-win32-setup.exe
+    87a0af9daeb05d33be4e2cb675cb296ab7b6745079c9e65ec79850e31ac0df2f  amerocore-0.14.0-win64-setup.exe
 - in_manifest: |-
-    f80c2f509dd8f83fcb6f6fafd7ad4a261ca5c9df222002b8212be445dc2e4b1c  dash-win-signer-desc.yml
+    f80c2f509dd8f83fcb6f6fafd7ad4a261ca5c9df222002b8212be445dc2e4b1c  amero-win-signer-desc.yml
     f9a8cdb38b9c309326764ebc937cba1523a3a751a7ab05df3ecc99d18ae466c9  osslsigncode-1.7.1.tar.gz
     a8c4e9cafba922f89de0df1f2152e7be286aba73f78505169bc351a7938dd911  osslsigncode-Backports-to-1.7.1.patch
-    d282013879ef8ef785dbc1f33d458ad31a5789a22fa63f3f476b9ac6e92cd488  dashcore-win-unsigned.tar.gz
+    d282013879ef8ef785dbc1f33d458ad31a5789a22fa63f3f476b9ac6e92cd488  amerocore-win-unsigned.tar.gz
     git:18a409a5f76c45324aafbef28904d9ede95f78bb signature
 - base_manifests: !!omap
   - bionic-amd64: |
@@ -29,7 +29,7 @@
       38d513408c134b0f0c10236b52d30ef09d5e4c0e092de52de51fa86c57988bc2  cpp-7_7.4.0-1ubuntu1~18.04.1_amd64.deb
       6587837e97571bf64e5b673d0f0923b52e3f4e601e15df3907f9a246dd3eaae4  cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb
       c985060d2c889081c311757a06df281a6bbdb83c563f43c86b3c89f934bd0d15  crda_3.18-1build1_amd64.deb
-      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  dash_0.5.8-2.10_amd64.deb
+      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  amero_0.5.8-2.10_amd64.deb
       132ac2ac86f2ddda238ca3a09a4d1a32a2841d05c2c489ed4d747d3cf66970ef  debconf_1.5.66ubuntu1_all.deb
       2956dc70a0bd3a56365922c8f90cf9b9d0917a0308d6ea310e0f94d8ea4e11bf  debianutils_4.8.4_amd64.deb
       4a2f0f62cb9c7bc00d535e85f5629eb9f513e9c6161474a95445db1c446b5dc1  diffutils_1%3a3.6-1_amd64.deb
@@ -244,6 +244,6 @@
 - cache_common_manifest: ''
 - cache_package_manifest: ''
 - release: 0.14.0.3-win-signed
-- name: dash-win-signer
+- name: amero-win-signer
 - type: build
 - optionals: 

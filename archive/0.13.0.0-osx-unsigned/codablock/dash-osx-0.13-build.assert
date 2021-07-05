@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    6f97f502732e5b63a431d0edb5a9d14e95ff8afb8e7eb94463566a75e7589a70  dashcore-0.13.0-osx-unsigned.dmg
-    70840e634e9a24e878bc98fa37f1630d45b17bb7a1d4aaa4cc2fcf5deba05103  dashcore-0.13.0-osx-unsigned.tar.gz
-    fc240906b7a23f671c20f2171ea8d6bdfb6b6c5874cdca209fb6f04feb374c5b  dashcore-0.13.0-osx64.tar.gz
-    c9df42db6b6c119b73051d8407f92c4c54215f63b41b221afdf124d1c569912f  src/dashcore-0.13.0.tar.gz
+    6f97f502732e5b63a431d0edb5a9d14e95ff8afb8e7eb94463566a75e7589a70  amerocore-0.13.0-osx-unsigned.dmg
+    70840e634e9a24e878bc98fa37f1630d45b17bb7a1d4aaa4cc2fcf5deba05103  amerocore-0.13.0-osx-unsigned.tar.gz
+    fc240906b7a23f671c20f2171ea8d6bdfb6b6c5874cdca209fb6f04feb374c5b  amerocore-0.13.0-osx64.tar.gz
+    c9df42db6b6c119b73051d8407f92c4c54215f63b41b221afdf124d1c569912f  src/amerocore-0.13.0.tar.gz
 - in_manifest: |-
-    42ffd92ccecef7e5c0d3542fd6b9672affe3ae259111782bf8e32d4bd77377dd  dash-osx-0.13-desc.yml
+    42ffd92ccecef7e5c0d3542fd6b9672affe3ae259111782bf8e32d4bd77377dd  amero-osx-0.13-desc.yml
     bec9d089ebf2e2dd59b1a811a38ec78ebd5da18cbbcd6ab39d1e59f64ac5033f  MacOSX10.11.sdk.tar.gz
-    git:a68d1e3b82d6812208c56f9ad140580cea42ca31 dash
+    git:a68d1e3b82d6812208c56f9ad140580cea42ca31 amero
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -35,7 +35,7 @@
       8c37f4a0db4ebd450fe25398030b4b926939940c8673771b461a06f954552287  cpp_4%3a7.3.0-3ubuntu2.1_amd64.deb
       c985060d2c889081c311757a06df281a6bbdb83c563f43c86b3c89f934bd0d15  crda_3.18-1build1_amd64.deb
       fc781813c80a3f057a3eb73e8f733a790418c62a4ab36d075f31d149aff4d553  curl_7.58.0-2ubuntu3.5_amd64.deb
-      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  dash_0.5.8-2.10_amd64.deb
+      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  amero_0.5.8-2.10_amd64.deb
       70a84ed82def5f7e5aaf59c6519f780a9ca8dbe3c2f030e14ae948bc9011ac1b  dconf-gsettings-backend_0.26.0-2ubuntu3_amd64.deb
       e4fb1be7e022136495af23f0941ea62eb9db92790f8ba7d96be7ee5db42378f7  dconf-service_0.26.0-2ubuntu3_amd64.deb
       4d15dfec3cac2d9edae8d57703bd01d05027e0fb5c1e3f4f54539768ddfd8c83  debconf_1.5.66_all.deb
@@ -502,6 +502,6 @@
     56fd7a5e0e884efe1ce575ca69a06e19c98db3922ddf86c93f0174638c6fd3be  depends/x86_64-apple-darwin11/zlib/zlib-1.2.11-9fa8f712560.tar.gz
     ef2e9eaafd047fb45fbe365aef4894cf6b7f7cf90656193e65af66c1005eef19  depends/x86_64-apple-darwin11/zlib/zlib-1.2.11-9fa8f712560.tar.gz.hash
 - release: 0.13.0.0-osx-unsigned
-- name: dash-osx-0.13
+- name: amero-osx-0.13
 - type: build
 - optionals: 

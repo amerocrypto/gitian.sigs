@@ -1,10 +1,10 @@
 --- !!omap
-- out_manifest: 'aa9ff4560895b25a38a6ecf109430bcd82d8b9f0ccfa9b362f5ec86c364ba4f0  dashcore-osx-signed.dmg
+- out_manifest: 'aa9ff4560895b25a38a6ecf109430bcd82d8b9f0ccfa9b362f5ec86c364ba4f0  amerocore-osx-signed.dmg
 
 '
 - in_manifest: |-
-    46940efed4004bef42170bd5cde4692a74d7d52db3b8a6f6c082cf08559e93f9  dash-dmg-signer-desc.yml
-    543b2be538aba9e721ecfed7e40f25d2a63f0bebbecfc9ffdd4a28b09ce05b76  dashcore-osx-unsigned.tar.gz
+    46940efed4004bef42170bd5cde4692a74d7d52db3b8a6f6c082cf08559e93f9  amero-dmg-signer-desc.yml
+    543b2be538aba9e721ecfed7e40f25d2a63f0bebbecfc9ffdd4a28b09ce05b76  amerocore-osx-unsigned.tar.gz
     git:926986c4d0db8d581175787bc14e607128d8498f signature
 - base_manifests: !!omap
   - bionic-amd64: |
@@ -54,7 +54,7 @@
       6587837e97571bf64e5b673d0f0923b52e3f4e601e15df3907f9a246dd3eaae4  cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb
       914e45db4d64f0bf1cdc2ccd01aa74469b65af2260b669bbcaed53192aacc325  cron_3.0pl1-128.1ubuntu1_amd64.deb
       398fa38ada029295e1f49b72e19f1ac9770fae1de86f147a24d2879c548ba882  curl_7.58.0-2ubuntu3.13_amd64.deb
-      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  dash_0.5.8-2.10_amd64.deb
+      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  amero_0.5.8-2.10_amd64.deb
       d464522bd59fd5e54a5e8560681efa7ab854e8c16bfb533c31f0161a30754065  dbus_1.12.2-1ubuntu1.2_amd64.deb
       9d1dc163856f03c8d468d5e18d073bfffc2b1f160829300c1fcfea00173985b3  dbus_1.12.2-1ubuntu1_amd64.deb
       70a84ed82def5f7e5aaf59c6519f780a9ca8dbe3c2f030e14ae948bc9011ac1b  dconf-gsettings-backend_0.26.0-2ubuntu3_amd64.deb
@@ -617,6 +617,6 @@
 - cache_common_manifest: ''
 - cache_package_manifest: ''
 - release: 0.17.0.0-rc5-osx-signed
-- name: dash-dmg-signer
+- name: amero-dmg-signer
 - type: build
 - optionals: 

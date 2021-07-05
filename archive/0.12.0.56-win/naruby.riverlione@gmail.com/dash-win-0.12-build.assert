@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    9402719446c28f23c73ae39fcd3ecb233e0808053968dc112b358c5c530446b2  dash-0.12.0-win32-setup.exe
-    8ada59a1a96538acabe235a59e27defb8901b9e47c8670bb8ea1d3c34922230b  dash-0.12.0-win32.zip
-    c23413fb3d24dd725e847ca65e7963999c11b07fb338f45bfb5744484d511abe  dash-0.12.0-win64-setup.exe
-    94454aa8428635b487f697ecd151b839c252d5058c7e37c1e182fe5486fe93b7  dash-0.12.0-win64.zip
-    a82509eb6b8c30bb0570124fb27c4f5317eb9aa7e636893e3bd103149f7276f1  src/dash-0.12.0.tar.gz
+    9402719446c28f23c73ae39fcd3ecb233e0808053968dc112b358c5c530446b2  amero-0.12.0-win32-setup.exe
+    8ada59a1a96538acabe235a59e27defb8901b9e47c8670bb8ea1d3c34922230b  amero-0.12.0-win32.zip
+    c23413fb3d24dd725e847ca65e7963999c11b07fb338f45bfb5744484d511abe  amero-0.12.0-win64-setup.exe
+    94454aa8428635b487f697ecd151b839c252d5058c7e37c1e182fe5486fe93b7  amero-0.12.0-win64.zip
+    a82509eb6b8c30bb0570124fb27c4f5317eb9aa7e636893e3bd103149f7276f1  src/amero-0.12.0.tar.gz
 - in_manifest: |-
-    38c26d4af7d1c626d321df294562f7cd7f2be44b63024d76356cd9a39dafd70a  dash-win-0.12-desc.yml
-    git:7154cdf51bbe02df7f996eaffef586e5ce24179c dash
+    38c26d4af7d1c626d321df294562f7cd7f2be44b63024d76356cd9a39dafd70a  amero-win-0.12-desc.yml
+    git:7154cdf51bbe02df7f996eaffef586e5ce24179c amero
 - base_manifests: !omap
   - precise-amd64: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
@@ -51,7 +51,7 @@
       62e8a4cbc565835ee344cd4abfa25c56478b32e7561964170b2fd7c881ea93bd  cpp_4%3a4.6.3-1ubuntu5_amd64.deb
       32d604bc1c307a9d98fc71015fd387b35e857273f64106852bb3343d1110b0cc  cron_3.0pl1-120ubuntu3_amd64.deb
       da50a76a7727908d425a26252d8b87dc742919f9cec2103697e3a18cb9f5dfc9  cron_3.0pl1-120ubuntu4_amd64.deb
-      f239880c28adb06d164f1533a2f3d8b78607bb4ad91b9a3dba161675b01d06cf  dash_0.5.7-2ubuntu2_amd64.deb
+      f239880c28adb06d164f1533a2f3d8b78607bb4ad91b9a3dba161675b01d06cf  amero_0.5.7-2ubuntu2_amd64.deb
       f17ae604de9dffae050053a3f937c5959a78cb8ba3435cddff682b2ee58ab6b2  debconf-i18n_1.5.42ubuntu1_all.deb
       4cbd79672c600fece1a39e7c37974a7a9be78e9ff45e376e9b48beaf67b2a89c  debconf_1.5.42ubuntu1_all.deb
       64e958bee37b656227e3be1549d230ba130b30752c321db157958105e956cecf  debianutils_4.2.1ubuntu2_amd64.deb
@@ -506,6 +506,6 @@
     745bf5a0f88ddad01fbcca63965a179e9c133611496b2f5782b8f8f94eea7e9c  x86_64-w64-mingw32/qt/qt-5.2.1-1c57cf139be.tar.gz
     745bf5a0f88ddad01fbcca63965a179e9c133611496b2f5782b8f8f94eea7e9c  x86_64-w64-mingw32/qt/qt-5.2.1-d2f6d690fc2.tar.gz
 - release: 0.12.0.56-win
-- name: dash-win-0.12
+- name: amero-win-0.12
 - type: build
 - optionals: 

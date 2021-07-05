@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    e6353d0b4efdc0d5f591666cea52f6a5f8854db3273ec667494926bf72d318a5  dashcore-0.14.0-aarch64-linux-gnu-debug.tar.gz
-    400126b4f29d5fa91ab515590f383726f7631831d57b6765776035bcd73e9c12  dashcore-0.14.0-aarch64-linux-gnu.tar.gz
-    4dcfd467b63e942645c6ec19c29f2dc609c42c7007dd01313f182c338ab95ad2  dashcore-0.14.0-arm-linux-gnueabihf-debug.tar.gz
-    19417dbe38a877d769cb2bd5d05c7e8b8938f91f1dbd49679058ba4009fb31d8  dashcore-0.14.0-arm-linux-gnueabihf.tar.gz
-    167e206f868c1b19baf1f8a95af77e4fac18d673f7d880049f6c49297a4db12c  dashcore-0.14.0-i686-pc-linux-gnu-debug.tar.gz
-    291c02802405d7fcb7537625f0eedcb31a9d1170ea87ea79140b705a0bb09e4d  dashcore-0.14.0-i686-pc-linux-gnu.tar.gz
-    c6a15547a838458fc132d4da44a5b3183f57854541d8a7990d6e95a5fd872837  dashcore-0.14.0-x86_64-linux-gnu-debug.tar.gz
-    00482c0e2b861d0af042a695d8f6f2bafada0e6df036482d43ba36d51cf2464b  dashcore-0.14.0-x86_64-linux-gnu.tar.gz
-    4f4e7a9c8d07562d77198c5b71f3fa9a02a1677eaf6281f2aba00e3a96c95199  src/dashcore-0.14.0.tar.gz
+    e6353d0b4efdc0d5f591666cea52f6a5f8854db3273ec667494926bf72d318a5  amerocore-0.14.0-aarch64-linux-gnu-debug.tar.gz
+    400126b4f29d5fa91ab515590f383726f7631831d57b6765776035bcd73e9c12  amerocore-0.14.0-aarch64-linux-gnu.tar.gz
+    4dcfd467b63e942645c6ec19c29f2dc609c42c7007dd01313f182c338ab95ad2  amerocore-0.14.0-arm-linux-gnueabihf-debug.tar.gz
+    19417dbe38a877d769cb2bd5d05c7e8b8938f91f1dbd49679058ba4009fb31d8  amerocore-0.14.0-arm-linux-gnueabihf.tar.gz
+    167e206f868c1b19baf1f8a95af77e4fac18d673f7d880049f6c49297a4db12c  amerocore-0.14.0-i686-pc-linux-gnu-debug.tar.gz
+    291c02802405d7fcb7537625f0eedcb31a9d1170ea87ea79140b705a0bb09e4d  amerocore-0.14.0-i686-pc-linux-gnu.tar.gz
+    c6a15547a838458fc132d4da44a5b3183f57854541d8a7990d6e95a5fd872837  amerocore-0.14.0-x86_64-linux-gnu-debug.tar.gz
+    00482c0e2b861d0af042a695d8f6f2bafada0e6df036482d43ba36d51cf2464b  amerocore-0.14.0-x86_64-linux-gnu.tar.gz
+    4f4e7a9c8d07562d77198c5b71f3fa9a02a1677eaf6281f2aba00e3a96c95199  src/amerocore-0.14.0.tar.gz
 - in_manifest: |-
-    3e65c27e2743193381b2ffe37292efde4fd2cf7148aa2800dce174d3d41f0faf  dash-linux-0.14-desc.yml
-    git:28a219ff0a6c5fc853628c476d6280b1f9b8fa9c dash
+    3e65c27e2743193381b2ffe37292efde4fd2cf7148aa2800dce174d3d41f0faf  amero-linux-0.14-desc.yml
+    git:28a219ff0a6c5fc853628c476d6280b1f9b8fa9c amero
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -44,7 +44,7 @@
       6587837e97571bf64e5b673d0f0923b52e3f4e601e15df3907f9a246dd3eaae4  cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb
       c985060d2c889081c311757a06df281a6bbdb83c563f43c86b3c89f934bd0d15  crda_3.18-1build1_amd64.deb
       21a01a9969926000eba37ca1066b15ec4cf43dfec8967521f41c73cae90394ae  curl_7.58.0-2ubuntu3.7_amd64.deb
-      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  dash_0.5.8-2.10_amd64.deb
+      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  amero_0.5.8-2.10_amd64.deb
       132ac2ac86f2ddda238ca3a09a4d1a32a2841d05c2c489ed4d747d3cf66970ef  debconf_1.5.66ubuntu1_all.deb
       2956dc70a0bd3a56365922c8f90cf9b9d0917a0308d6ea310e0f94d8ea4e11bf  debianutils_4.8.4_amd64.deb
       4a2f0f62cb9c7bc00d535e85f5629eb9f513e9c6161474a95445db1c446b5dc1  diffutils_1%3a3.6-1_amd64.deb
@@ -980,6 +980,6 @@
     3bcac217344276ababb013ca66be6265d9ea1251e7ab01e3ad2ecb42ca34c110  depends/x86_64-linux-gnu/zlib/zlib-1.2.11-eb020fae13f.tar.gz
     44f21182b40c72e34d68c2e65a42652fe8b502d5bfacfc56faaff134a1b3edbf  depends/x86_64-linux-gnu/zlib/zlib-1.2.11-eb020fae13f.tar.gz.hash
 - release: 0.14.0.2-linux
-- name: dash-linux-0.14
+- name: amero-linux-0.14
 - type: build
 - optionals: 

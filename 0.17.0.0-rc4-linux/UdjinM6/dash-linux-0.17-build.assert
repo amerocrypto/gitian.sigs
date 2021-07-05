@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    296ea8e5603df12b5ad0ec724918a1ba61a82979b63c0abdec2946a2433d8878  dashcore-0.17.0-aarch64-linux-gnu-debug.tar.gz
-    a857e7f94538c160ecdd09dfac1aebc24ba74bda551312f1abdb1243e810a04c  dashcore-0.17.0-aarch64-linux-gnu.tar.gz
-    3b67ea3a167de736ddc6eac83535585aa2c7e78fbc00af6bd2eab59d4fe4204b  dashcore-0.17.0-arm-linux-gnueabihf-debug.tar.gz
-    2abfe7ef6d6bdea8e7945d991a5d87edc6eb41f2debdb2a7b4f4de2a4e8c003b  dashcore-0.17.0-arm-linux-gnueabihf.tar.gz
-    39ac056d50e0eb28cfb1eed5fb09bf308eb47c7fd5bfa19945a6329baa1ba482  dashcore-0.17.0-i686-pc-linux-gnu-debug.tar.gz
-    b5e3741293902066a3a7437850798e436c1afa84a27abd0395926d5a929b2332  dashcore-0.17.0-i686-pc-linux-gnu.tar.gz
-    1d8b2d65e3d3fb1b1f9c194ff63b84b67255c6f72b3dd839df98d7e3222dbcc7  dashcore-0.17.0-x86_64-linux-gnu-debug.tar.gz
-    e0a90d3dd5c1be75bc268a1fe63e826a0eb62cfc7ebb10b29dd277279c509dda  dashcore-0.17.0-x86_64-linux-gnu.tar.gz
-    21b23f2a8a743c77870a039c4a5a95f07d3a6f98e5a878cfb7a2564295323e8e  src/dashcore-0.17.0.tar.gz
+    296ea8e5603df12b5ad0ec724918a1ba61a82979b63c0abdec2946a2433d8878  amerocore-0.17.0-aarch64-linux-gnu-debug.tar.gz
+    a857e7f94538c160ecdd09dfac1aebc24ba74bda551312f1abdb1243e810a04c  amerocore-0.17.0-aarch64-linux-gnu.tar.gz
+    3b67ea3a167de736ddc6eac83535585aa2c7e78fbc00af6bd2eab59d4fe4204b  amerocore-0.17.0-arm-linux-gnueabihf-debug.tar.gz
+    2abfe7ef6d6bdea8e7945d991a5d87edc6eb41f2debdb2a7b4f4de2a4e8c003b  amerocore-0.17.0-arm-linux-gnueabihf.tar.gz
+    39ac056d50e0eb28cfb1eed5fb09bf308eb47c7fd5bfa19945a6329baa1ba482  amerocore-0.17.0-i686-pc-linux-gnu-debug.tar.gz
+    b5e3741293902066a3a7437850798e436c1afa84a27abd0395926d5a929b2332  amerocore-0.17.0-i686-pc-linux-gnu.tar.gz
+    1d8b2d65e3d3fb1b1f9c194ff63b84b67255c6f72b3dd839df98d7e3222dbcc7  amerocore-0.17.0-x86_64-linux-gnu-debug.tar.gz
+    e0a90d3dd5c1be75bc268a1fe63e826a0eb62cfc7ebb10b29dd277279c509dda  amerocore-0.17.0-x86_64-linux-gnu.tar.gz
+    21b23f2a8a743c77870a039c4a5a95f07d3a6f98e5a878cfb7a2564295323e8e  src/amerocore-0.17.0.tar.gz
 - in_manifest: |-
-    caa60ff1281d31ad15a31829b8710735da4ddd2fe2d25ce82b90a692f9c06ab6  dash-linux-0.17-desc.yml
-    git:68caf300a95e9ee2cdbc4f5b85e2e312f959cca1 dash
+    caa60ff1281d31ad15a31829b8710735da4ddd2fe2d25ce82b90a692f9c06ab6  amero-linux-0.17-desc.yml
+    git:68caf300a95e9ee2cdbc4f5b85e2e312f959cca1 amero
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -65,7 +65,7 @@
       6587837e97571bf64e5b673d0f0923b52e3f4e601e15df3907f9a246dd3eaae4  cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb
       914e45db4d64f0bf1cdc2ccd01aa74469b65af2260b669bbcaed53192aacc325  cron_3.0pl1-128.1ubuntu1_amd64.deb
       398fa38ada029295e1f49b72e19f1ac9770fae1de86f147a24d2879c548ba882  curl_7.58.0-2ubuntu3.13_amd64.deb
-      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  dash_0.5.8-2.10_amd64.deb
+      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  amero_0.5.8-2.10_amd64.deb
       d464522bd59fd5e54a5e8560681efa7ab854e8c16bfb533c31f0161a30754065  dbus_1.12.2-1ubuntu1.2_amd64.deb
       9d1dc163856f03c8d468d5e18d073bfffc2b1f160829300c1fcfea00173985b3  dbus_1.12.2-1ubuntu1_amd64.deb
       cdc1459b505f3de47d7fa28e46ba07ba7557b88339a549a306630a000f067447  debconf-i18n_1.5.66_all.deb
@@ -587,8 +587,8 @@
     a09c9ba4684670a0375e42d9d67e7f12c1f62581a27f28f7c825d6d7032ccc6a  807d6fd1be5d2224872e381870c0a75387fe05e6.tar.gz
     b57cadfd26e4754efdf89e9e37de87885f9b5c847b2615688ca04adfaf6ca604  biplist-0.9.tar.gz
     4c0549764c5fe50b28042ec21aa2e14fe1a2224e239a1dae77d9e7f3932aa4c6  biplist-1.0.3.tar.gz
-    ecbc51457dd3de153af27333038f149ba585e16fe46351b763938cb6ef0f2d9a  bls-dash-1.0.0.tar.gz
-    cff7552d8ebd6d29141f1acfa65b7d956c803b575baaaf076d4aea3c32178116  bls-dash-1.0.1.tar.gz
+    ecbc51457dd3de153af27333038f149ba585e16fe46351b763938cb6ef0f2d9a  bls-amero-1.0.0.tar.gz
+    cff7552d8ebd6d29141f1acfa65b7d956c803b575baaaf076d4aea3c32178116  bls-amero-1.0.1.tar.gz
     7bcc5caace97baa948931d712ea5f37038dbb1c5d89b43ad4def4ed7cb683332  boost_1_64_0.tar.bz2
     430ae8354789de4fd19ee52f3b1f739e1fba576f0aded0897c3c2bc00fb38778  boost_1_70_0.tar.bz2
     b50d64c214a65b1a79afe3a964c691931a4233e2ba605d793eb85d0ac3652564  cdrkit-1.1.11.tar.bz2
@@ -598,9 +598,9 @@
     6049ddd5f3f3e2618f615f1faeda0a115104423a7996b7aa73e2f36e38cc514a  dbus-1.10.18.tar.gz
     1435569f32cee722e4d90f55678404f503828e64b60d2ff7d048611e5788a974  download-stamps/.stamp_fetched-backtrace-rust-snapshot-2018-05-22.tar.gz.hash
     535bec5356b1ff4a753fcd87f14509297d2fa044955d3bb0308e5c2e54bb2d09  download-stamps/.stamp_fetched-bdb-db-4.8.30.NC.tar.gz.hash
-    4f90cc764e906bf251c0888655af9f17fce0cb4d30300b0506f690682814fb80  download-stamps/.stamp_fetched-bls-dash-1.0.0.tar.gz.hash
-    137fb70d0324d7103788ce948309a9f83b4a26adb890d544639e215346deaff7  download-stamps/.stamp_fetched-bls-dash-bls-dash-1.0.0.tar.gz.hash
-    22b3c441f3de71f3e25778b4185c3106fdb8149773323cf6a4d0c343656b4bee  download-stamps/.stamp_fetched-bls-dash-bls-dash-1.0.1.tar.gz.hash
+    4f90cc764e906bf251c0888655af9f17fce0cb4d30300b0506f690682814fb80  download-stamps/.stamp_fetched-bls-amero-1.0.0.tar.gz.hash
+    137fb70d0324d7103788ce948309a9f83b4a26adb890d544639e215346deaff7  download-stamps/.stamp_fetched-bls-amero-bls-amero-1.0.0.tar.gz.hash
+    22b3c441f3de71f3e25778b4185c3106fdb8149773323cf6a4d0c343656b4bee  download-stamps/.stamp_fetched-bls-amero-bls-amero-1.0.1.tar.gz.hash
     150079aa5f2d25b3c47f7d8f100c91589ff979c806b9588abdf3fd41c0d80869  download-stamps/.stamp_fetched-boost-boost_1_64_0.tar.bz2.hash
     9323e689144a6ee8d0f73f4f48d65dfcdc1d0b873c6e3cb28decd4825acf8678  download-stamps/.stamp_fetched-boost-boost_1_70_0.tar.bz2.hash
     59bcf35fced943fc91a30a71da626556484d3b7a5cedc5a97f9e44078fab3de4  download-stamps/.stamp_fetched-chia_bls-v20181101.tar.gz.hash
@@ -697,10 +697,10 @@
     51492a14debb0390bc0daf301b393d3f26a5badd1bc5fb7df183ff10b1e01621  depends/aarch64-linux-gnu/bdb/bdb-4.8.30-5313b3b18c8.tar.gz.hash
     2dc16b1912847c3290e7d8fa5837578439f5e439f400515eeccf3511d22a3e90  depends/aarch64-linux-gnu/bdb/bdb-4.8.30-8912c420b2a.tar.gz
     6ed7d8e09bca2dc5076b1ac49ebcf3f9a66373b6f5b8a78cfd834589adcb9ea5  depends/aarch64-linux-gnu/bdb/bdb-4.8.30-8912c420b2a.tar.gz.hash
-    1fa12b992a86a108d644bd45950467e1882851b00da27013667326d4ea50202f  depends/aarch64-linux-gnu/bls-dash/bls-dash-1.0.0-d1cf86c6d63.tar.gz
-    8d6f437a01dfaf79db0e298601a4d9b48db9f46b1b5423657b09fb4e589f531b  depends/aarch64-linux-gnu/bls-dash/bls-dash-1.0.0-d1cf86c6d63.tar.gz.hash
-    1aa902ec0b1fa4349928d9f18eb0a67560c298a78ee2280682a3dc04cbc82487  depends/aarch64-linux-gnu/bls-dash/bls-dash-1.0.1-6ae6287727f.tar.gz
-    1b92b71870fdd46f2defdccb1b944262c95dc85c0f03a0f4b1fd3058daae6204  depends/aarch64-linux-gnu/bls-dash/bls-dash-1.0.1-6ae6287727f.tar.gz.hash
+    1fa12b992a86a108d644bd45950467e1882851b00da27013667326d4ea50202f  depends/aarch64-linux-gnu/bls-amero/bls-amero-1.0.0-d1cf86c6d63.tar.gz
+    8d6f437a01dfaf79db0e298601a4d9b48db9f46b1b5423657b09fb4e589f531b  depends/aarch64-linux-gnu/bls-amero/bls-amero-1.0.0-d1cf86c6d63.tar.gz.hash
+    1aa902ec0b1fa4349928d9f18eb0a67560c298a78ee2280682a3dc04cbc82487  depends/aarch64-linux-gnu/bls-amero/bls-amero-1.0.1-6ae6287727f.tar.gz
+    1b92b71870fdd46f2defdccb1b944262c95dc85c0f03a0f4b1fd3058daae6204  depends/aarch64-linux-gnu/bls-amero/bls-amero-1.0.1-6ae6287727f.tar.gz.hash
     a09801eb89d724256d3fb1596b9240fe15f60a89cd6964b0e47945f6ddbbde14  depends/aarch64-linux-gnu/boost/boost-1_64_0-05e9ebb0aea.tar.gz
     ad23678c66edc5108069ee5dad12e2e1854988dc9b670395f593e4559d0e3e7a  depends/aarch64-linux-gnu/boost/boost-1_64_0-05e9ebb0aea.tar.gz.hash
     cda9c1a5d7fe8061c9b04bea865add6ed102bb7b84e2706bc35c3a3e3fd893b1  depends/aarch64-linux-gnu/boost/boost-1_70_0-bc257d4912e.tar.gz
@@ -763,10 +763,10 @@
     36b36d3ccedd9e2817d5e5e23b90066f79261149517b3c9905fac6880b959df0  depends/arm-linux-gnueabihf/bdb/bdb-4.8.30-16ebdbed5c7.tar.gz.hash
     ebc8e06b6c465051ec930102b828f614699a9f9d1d514d21715a2e9f85069818  depends/arm-linux-gnueabihf/bdb/bdb-4.8.30-7245229ba56.tar.gz
     d7e99d443f6ebb78f27f11a62b4d05a802e8d4073d996313c803967fa2b6d9e7  depends/arm-linux-gnueabihf/bdb/bdb-4.8.30-7245229ba56.tar.gz.hash
-    029baf30986bb23a77b19ebc8ecbf448db49c8d340ecc95385d1941a71e5c790  depends/arm-linux-gnueabihf/bls-dash/bls-dash-1.0.0-b95cca4abd7.tar.gz
-    9b7a4268e7ddc057c1548a2f638cdf87fce6abf7c8d4681c9062fd4da1747eac  depends/arm-linux-gnueabihf/bls-dash/bls-dash-1.0.0-b95cca4abd7.tar.gz.hash
-    74d48352b54b6fef3c30cb58b66a4f9bf35ed4ffd79436298a4656b2b8278376  depends/arm-linux-gnueabihf/bls-dash/bls-dash-1.0.1-93af7d648b4.tar.gz
-    04344d8a706fdde178cc6a6296189bd636944a26157b7d444e52aba5a2a7bcb2  depends/arm-linux-gnueabihf/bls-dash/bls-dash-1.0.1-93af7d648b4.tar.gz.hash
+    029baf30986bb23a77b19ebc8ecbf448db49c8d340ecc95385d1941a71e5c790  depends/arm-linux-gnueabihf/bls-amero/bls-amero-1.0.0-b95cca4abd7.tar.gz
+    9b7a4268e7ddc057c1548a2f638cdf87fce6abf7c8d4681c9062fd4da1747eac  depends/arm-linux-gnueabihf/bls-amero/bls-amero-1.0.0-b95cca4abd7.tar.gz.hash
+    74d48352b54b6fef3c30cb58b66a4f9bf35ed4ffd79436298a4656b2b8278376  depends/arm-linux-gnueabihf/bls-amero/bls-amero-1.0.1-93af7d648b4.tar.gz
+    04344d8a706fdde178cc6a6296189bd636944a26157b7d444e52aba5a2a7bcb2  depends/arm-linux-gnueabihf/bls-amero/bls-amero-1.0.1-93af7d648b4.tar.gz.hash
     aaab780732f87651dffc11c35c2841f74abb83020a7026a09296a1d4e9d20822  depends/arm-linux-gnueabihf/boost/boost-1_64_0-26718746b18.tar.gz
     c64766368d5de769c8a308b5bdc46bd069a52ff31c546dc1767b1a54e806507f  depends/arm-linux-gnueabihf/boost/boost-1_64_0-26718746b18.tar.gz.hash
     63b41ab3611012be4e51f55afdde6638dbebe3c1a360bdcc462d85e25e2012f5  depends/arm-linux-gnueabihf/boost/boost-1_70_0-7f3c06072f1.tar.gz
@@ -829,10 +829,10 @@
     889e3e1a8984c04c04dceb5a41041e26a32589506ba9e66bb8a8060160a8673d  depends/i686-pc-linux-gnu/bdb/bdb-4.8.30-4013b84f55b.tar.gz.hash
     f478b23250d1418c7455188181f3a846a31d2417623bd76719b3f00187e7b5a9  depends/i686-pc-linux-gnu/bdb/bdb-4.8.30-99066c7ec46.tar.gz
     b7fc30670e922daa7d0f1f56fd1e31339dfc62bf3af02de31f55b059ad8de8ff  depends/i686-pc-linux-gnu/bdb/bdb-4.8.30-99066c7ec46.tar.gz.hash
-    47d2897a3ec9a3fe9d420f46297aebda34dd2739f650fffd778b8cd9ca1b2a15  depends/i686-pc-linux-gnu/bls-dash/bls-dash-1.0.0-3033a4a5446.tar.gz
-    3a14ca22634280f5c0f00493c73d3560c41859fdd76139ac707e292cdb18694f  depends/i686-pc-linux-gnu/bls-dash/bls-dash-1.0.0-3033a4a5446.tar.gz.hash
-    b720ed7ed10bce180a4f112cf5f395204d20d4b26c8e9b8d67949a70c59d66b4  depends/i686-pc-linux-gnu/bls-dash/bls-dash-1.0.1-257eb18aec2.tar.gz
-    1c633aa41faacf9bb0ab41c4753bbfaf0596bb693ae8a9d14008a779c5802ec1  depends/i686-pc-linux-gnu/bls-dash/bls-dash-1.0.1-257eb18aec2.tar.gz.hash
+    47d2897a3ec9a3fe9d420f46297aebda34dd2739f650fffd778b8cd9ca1b2a15  depends/i686-pc-linux-gnu/bls-amero/bls-amero-1.0.0-3033a4a5446.tar.gz
+    3a14ca22634280f5c0f00493c73d3560c41859fdd76139ac707e292cdb18694f  depends/i686-pc-linux-gnu/bls-amero/bls-amero-1.0.0-3033a4a5446.tar.gz.hash
+    b720ed7ed10bce180a4f112cf5f395204d20d4b26c8e9b8d67949a70c59d66b4  depends/i686-pc-linux-gnu/bls-amero/bls-amero-1.0.1-257eb18aec2.tar.gz
+    1c633aa41faacf9bb0ab41c4753bbfaf0596bb693ae8a9d14008a779c5802ec1  depends/i686-pc-linux-gnu/bls-amero/bls-amero-1.0.1-257eb18aec2.tar.gz.hash
     38bdea0819eb6467c2963092c54dd4cd7b51aec2e20a65e5c286895d0a4a51d7  depends/i686-pc-linux-gnu/boost/boost-1_64_0-0e510d1534c.tar.gz
     02c1215decb1c2745ca1a94eeead9a1d3937e4c345ad58339bbfefcd1d6bdd49  depends/i686-pc-linux-gnu/boost/boost-1_64_0-0e510d1534c.tar.gz.hash
     dc60ab2008a461382d446995d0fd3383dfb91f8e74427cf5c5401663bf4b7cb1  depends/i686-pc-linux-gnu/boost/boost-1_70_0-758b54c8bda.tar.gz
@@ -895,10 +895,10 @@
     492d67565b35a86da8b7f50a57413bf1e954163cc99bb11ea5235d6ed797b960  depends/x86_64-linux-gnu/bdb/bdb-4.8.30-cf479485e39.tar.gz.hash
     a5d99b4e5c5ba609f0ea1251c826a4aadb5661a515df3426c7b9202ccc5367f8  depends/x86_64-linux-gnu/bdb/bdb-4.8.30-e1175d0ab3d.tar.gz
     7992e8cfd9e217a44e12acf59b60b8b117d72ef2c9fa5f4801f58b8a4ed60a41  depends/x86_64-linux-gnu/bdb/bdb-4.8.30-e1175d0ab3d.tar.gz.hash
-    737fcb0e8aef9190b6f5667e2df3eda1e4ffb20c06ef45c47fc71c811565a872  depends/x86_64-linux-gnu/bls-dash/bls-dash-1.0.0-a88d7cdff7a.tar.gz
-    63cb8f7381acfa314ff0341c379bc4de990d54c5bbe4b580291c04c6875eefaf  depends/x86_64-linux-gnu/bls-dash/bls-dash-1.0.0-a88d7cdff7a.tar.gz.hash
-    c2f624b8212c7828df7d1a6b05438ba0413878b576dfaa4366e872e53acb173e  depends/x86_64-linux-gnu/bls-dash/bls-dash-1.0.1-484a3e48163.tar.gz
-    794189d07664037b50f6cd13c65cf37f030c45f2fa03226437b3122713542242  depends/x86_64-linux-gnu/bls-dash/bls-dash-1.0.1-484a3e48163.tar.gz.hash
+    737fcb0e8aef9190b6f5667e2df3eda1e4ffb20c06ef45c47fc71c811565a872  depends/x86_64-linux-gnu/bls-amero/bls-amero-1.0.0-a88d7cdff7a.tar.gz
+    63cb8f7381acfa314ff0341c379bc4de990d54c5bbe4b580291c04c6875eefaf  depends/x86_64-linux-gnu/bls-amero/bls-amero-1.0.0-a88d7cdff7a.tar.gz.hash
+    c2f624b8212c7828df7d1a6b05438ba0413878b576dfaa4366e872e53acb173e  depends/x86_64-linux-gnu/bls-amero/bls-amero-1.0.1-484a3e48163.tar.gz
+    794189d07664037b50f6cd13c65cf37f030c45f2fa03226437b3122713542242  depends/x86_64-linux-gnu/bls-amero/bls-amero-1.0.1-484a3e48163.tar.gz.hash
     c07b79c549a4451ca1e9afb56be99cc1c71205454e306fc29ee182871162985e  depends/x86_64-linux-gnu/boost/boost-1_64_0-f612b03ca6c.tar.gz
     fa5297fef5c74a778b1e9411071c48f7b1b7b44c96ce55de8f8e030fa98db95c  depends/x86_64-linux-gnu/boost/boost-1_64_0-f612b03ca6c.tar.gz.hash
     b7ddfba92302bb35af291e1700bbf88fccf18a7d381dd286910493d8e650613a  depends/x86_64-linux-gnu/boost/boost-1_70_0-b23553b3472.tar.gz
@@ -956,6 +956,6 @@
     be912228134e16ced3625157b3d197e9e85a98c9f28aa0cc3e02ede1bfae66f5  depends/x86_64-linux-gnu/zlib/zlib-1.2.11-c21091b9ac6.tar.gz
     f6395be0175283e6cb8b3e67ae9b69c67ef7916d94d66568d19d181ac8fe76f7  depends/x86_64-linux-gnu/zlib/zlib-1.2.11-c21091b9ac6.tar.gz.hash
 - release: 0.17.0.0-rc4-linux
-- name: dash-linux-0.17
+- name: amero-linux-0.17
 - type: build
 - optionals: 

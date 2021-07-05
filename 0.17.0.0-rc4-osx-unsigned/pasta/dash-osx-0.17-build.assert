@@ -1,14 +1,14 @@
 --- !!omap
 - out_manifest: |
-    2c30ccd8304b063f9ea5e4ad7d074dc12db6a5cc8bc3b0a5fec58e980e1c6305  dashcore-0.17.0-osx-unsigned.dmg
-    37ff8b4f07a5bc9501e0c2286bf5a10f7132c5ae3cf7d4a7d81db3f8d3cca49d  dashcore-0.17.0-osx-unsigned.tar.gz
-    d4da2a764576b28e240806475a260da20e825c0028aaf7bf6b3eb7313489f43c  dashcore-0.17.0-osx64-debug.tar.gz
-    43f196b8a6f307f44c93a6774e0cdc0225f57ab8ed9e789ef91926a2b646780c  dashcore-0.17.0-osx64.tar.gz
-    21b23f2a8a743c77870a039c4a5a95f07d3a6f98e5a878cfb7a2564295323e8e  src/dashcore-0.17.0.tar.gz
+    2c30ccd8304b063f9ea5e4ad7d074dc12db6a5cc8bc3b0a5fec58e980e1c6305  amerocore-0.17.0-osx-unsigned.dmg
+    37ff8b4f07a5bc9501e0c2286bf5a10f7132c5ae3cf7d4a7d81db3f8d3cca49d  amerocore-0.17.0-osx-unsigned.tar.gz
+    d4da2a764576b28e240806475a260da20e825c0028aaf7bf6b3eb7313489f43c  amerocore-0.17.0-osx64-debug.tar.gz
+    43f196b8a6f307f44c93a6774e0cdc0225f57ab8ed9e789ef91926a2b646780c  amerocore-0.17.0-osx64.tar.gz
+    21b23f2a8a743c77870a039c4a5a95f07d3a6f98e5a878cfb7a2564295323e8e  src/amerocore-0.17.0.tar.gz
 - in_manifest: |-
-    b59af68d6954e2a7d9936cb7360728f9aa8c85ea811298f2692ab8fafdbd23ac  dash-osx-0.17-desc.yml
+    b59af68d6954e2a7d9936cb7360728f9aa8c85ea811298f2692ab8fafdbd23ac  amero-osx-0.17-desc.yml
     bec9d089ebf2e2dd59b1a811a38ec78ebd5da18cbbcd6ab39d1e59f64ac5033f  MacOSX10.11.sdk.tar.gz
-    git:68caf300a95e9ee2cdbc4f5b85e2e312f959cca1 dash
+    git:68caf300a95e9ee2cdbc4f5b85e2e312f959cca1 amero
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -57,7 +57,7 @@
       6587837e97571bf64e5b673d0f0923b52e3f4e601e15df3907f9a246dd3eaae4  cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb
       914e45db4d64f0bf1cdc2ccd01aa74469b65af2260b669bbcaed53192aacc325  cron_3.0pl1-128.1ubuntu1_amd64.deb
       398fa38ada029295e1f49b72e19f1ac9770fae1de86f147a24d2879c548ba882  curl_7.58.0-2ubuntu3.13_amd64.deb
-      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  dash_0.5.8-2.10_amd64.deb
+      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  amero_0.5.8-2.10_amd64.deb
       d464522bd59fd5e54a5e8560681efa7ab854e8c16bfb533c31f0161a30754065  dbus_1.12.2-1ubuntu1.2_amd64.deb
       9d1dc163856f03c8d468d5e18d073bfffc2b1f160829300c1fcfea00173985b3  dbus_1.12.2-1ubuntu1_amd64.deb
       70a84ed82def5f7e5aaf59c6519f780a9ca8dbe3c2f030e14ae948bc9011ac1b  dconf-gsettings-backend_0.26.0-2ubuntu3_amd64.deb
@@ -616,7 +616,7 @@
     a09c9ba4684670a0375e42d9d67e7f12c1f62581a27f28f7c825d6d7032ccc6a  807d6fd1be5d2224872e381870c0a75387fe05e6.tar.gz
     b57cadfd26e4754efdf89e9e37de87885f9b5c847b2615688ca04adfaf6ca604  biplist-0.9.tar.gz
     4c0549764c5fe50b28042ec21aa2e14fe1a2224e239a1dae77d9e7f3932aa4c6  biplist-1.0.3.tar.gz
-    cff7552d8ebd6d29141f1acfa65b7d956c803b575baaaf076d4aea3c32178116  bls-dash-1.0.1.tar.gz
+    cff7552d8ebd6d29141f1acfa65b7d956c803b575baaaf076d4aea3c32178116  bls-amero-1.0.1.tar.gz
     7bcc5caace97baa948931d712ea5f37038dbb1c5d89b43ad4def4ed7cb683332  boost_1_64_0.tar.bz2
     430ae8354789de4fd19ee52f3b1f739e1fba576f0aded0897c3c2bc00fb38778  boost_1_70_0.tar.bz2
     b50d64c214a65b1a79afe3a964c691931a4233e2ba605d793eb85d0ac3652564  cdrkit-1.1.11.tar.bz2
@@ -626,7 +626,7 @@
     6049ddd5f3f3e2618f615f1faeda0a115104423a7996b7aa73e2f36e38cc514a  dbus-1.10.18.tar.gz
     1435569f32cee722e4d90f55678404f503828e64b60d2ff7d048611e5788a974  download-stamps/.stamp_fetched-backtrace-rust-snapshot-2018-05-22.tar.gz.hash
     535bec5356b1ff4a753fcd87f14509297d2fa044955d3bb0308e5c2e54bb2d09  download-stamps/.stamp_fetched-bdb-db-4.8.30.NC.tar.gz.hash
-    22b3c441f3de71f3e25778b4185c3106fdb8149773323cf6a4d0c343656b4bee  download-stamps/.stamp_fetched-bls-dash-bls-dash-1.0.1.tar.gz.hash
+    22b3c441f3de71f3e25778b4185c3106fdb8149773323cf6a4d0c343656b4bee  download-stamps/.stamp_fetched-bls-amero-bls-amero-1.0.1.tar.gz.hash
     150079aa5f2d25b3c47f7d8f100c91589ff979c806b9588abdf3fd41c0d80869  download-stamps/.stamp_fetched-boost-boost_1_64_0.tar.bz2.hash
     9323e689144a6ee8d0f73f4f48d65dfcdc1d0b873c6e3cb28decd4825acf8678  download-stamps/.stamp_fetched-boost-boost_1_70_0.tar.bz2.hash
     59bcf35fced943fc91a30a71da626556484d3b7a5cedc5a97f9e44078fab3de4  download-stamps/.stamp_fetched-chia_bls-v20181101.tar.gz.hash
@@ -714,8 +714,8 @@
     53cfcc778eeca76c8b7e913ebcfe601fe28227f2d8c3130e6ca76dda9318fa85  depends/x86_64-apple-darwin14/bdb/bdb-4.8.30-7b3719ca263.tar.gz.hash
     615449c3968f6b79e91e2162e0365155595edd4d582764f6ca6c11633427fd46  depends/x86_64-apple-darwin14/bdb/bdb-4.8.30-9dec345148f.tar.gz
     317b11c7a23e89a180a64869ec6140c53cc7e01e3b6d2400cb34fe97b7fe0544  depends/x86_64-apple-darwin14/bdb/bdb-4.8.30-9dec345148f.tar.gz.hash
-    dd79cb747feb52a3fca1641d16f9e087f2302ddac648d5a9651b135bc132ebb6  depends/x86_64-apple-darwin14/bls-dash/bls-dash-1.0.1-f7f5784cb22.tar.gz
-    db8b2cdda34548e729f38dfeca20c7bc8e92a1c77b21deb953db40f78a62d5b2  depends/x86_64-apple-darwin14/bls-dash/bls-dash-1.0.1-f7f5784cb22.tar.gz.hash
+    dd79cb747feb52a3fca1641d16f9e087f2302ddac648d5a9651b135bc132ebb6  depends/x86_64-apple-darwin14/bls-amero/bls-amero-1.0.1-f7f5784cb22.tar.gz
+    db8b2cdda34548e729f38dfeca20c7bc8e92a1c77b21deb953db40f78a62d5b2  depends/x86_64-apple-darwin14/bls-amero/bls-amero-1.0.1-f7f5784cb22.tar.gz.hash
     eacf60f4923b0171dee829b0f5fc23fb15f74f7a853c6d0b1d9b92c64d8ca071  depends/x86_64-apple-darwin14/boost/boost-1_64_0-3db7394c4c4.tar.gz
     d5b51ca9ae0622cd93e24cde8a547c7020670307b5d4076eb90f66f875ead305  depends/x86_64-apple-darwin14/boost/boost-1_64_0-3db7394c4c4.tar.gz.hash
     a831ad2441d7ea4f95afaf60826a8437ad9d4c24ba8fb42ab08633960f1e29b9  depends/x86_64-apple-darwin14/boost/boost-1_70_0-35dfb8e3fa9.tar.gz
@@ -763,6 +763,6 @@
     bb1c68d0638947222ab25aaaafff74782d0637d8753b9b550cea9b87a90667c9  depends/x86_64-apple-darwin14/zlib/zlib-1.2.11-f6c4326678b.tar.gz
     106c67adfb427aad1b6a23175ddaca2c9e078585797fdf774ae25a290ea74e10  depends/x86_64-apple-darwin14/zlib/zlib-1.2.11-f6c4326678b.tar.gz.hash
 - release: 0.17.0.0-rc4-osx-unsigned
-- name: dash-osx-0.17
+- name: amero-osx-0.17
 - type: build
 - optionals: 

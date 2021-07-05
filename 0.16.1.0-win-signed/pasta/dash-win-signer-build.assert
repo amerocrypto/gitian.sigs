@@ -1,11 +1,11 @@
 --- !!omap
 - out_manifest: |
-    bf277ab36e5d25828d11065510d40cea51b37124aa3565185f8607ff974500cc  dashcore-0.16.1-win32-setup.exe
-    8cafd0bee050f508a490432f20a80671ebed864924407342690a4983d12f2cd0  dashcore-0.16.1-win64-setup.exe
+    bf277ab36e5d25828d11065510d40cea51b37124aa3565185f8607ff974500cc  amerocore-0.16.1-win32-setup.exe
+    8cafd0bee050f508a490432f20a80671ebed864924407342690a4983d12f2cd0  amerocore-0.16.1-win64-setup.exe
 - in_manifest: |-
-    9af9b8ec45f6fed727f25308e4002978cc0231556844f81b4275c7ac1d589c2e  dash-win-signer-desc.yml
+    9af9b8ec45f6fed727f25308e4002978cc0231556844f81b4275c7ac1d589c2e  amero-win-signer-desc.yml
     5a60e0a4b3e0b4d655317b2f12a810211c50242138322b16e7e01c6fbb89d92f  osslsigncode-2.0.tar.gz
-    2e56475809e52329641ca2e899b87f743a2df005d6a4d49376017f42d9b07e03  dashcore-win-unsigned.tar.gz
+    2e56475809e52329641ca2e899b87f743a2df005d6a4d49376017f42d9b07e03  amerocore-win-unsigned.tar.gz
     git:72016e983b784bb3c5f83acd0b18ddcd55937996 signature
 - base_manifests: !!omap
   - bionic-amd64: |
@@ -51,7 +51,7 @@
       85ffe343a0829ba931fe5aaf12e4c5c05fa9ecfad93568ddaa86cfc149782a13  cpp_4%3a7.3.0-3ubuntu2_amd64.deb
       6587837e97571bf64e5b673d0f0923b52e3f4e601e15df3907f9a246dd3eaae4  cpp_4%3a7.4.0-1ubuntu2.3_amd64.deb
       914e45db4d64f0bf1cdc2ccd01aa74469b65af2260b669bbcaed53192aacc325  cron_3.0pl1-128.1ubuntu1_amd64.deb
-      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  dash_0.5.8-2.10_amd64.deb
+      51fe28b98b8e023325ae8868f29807cdb53f6f2eac943723b5e6bd47cde0cb2c  amero_0.5.8-2.10_amd64.deb
       d464522bd59fd5e54a5e8560681efa7ab854e8c16bfb533c31f0161a30754065  dbus_1.12.2-1ubuntu1.2_amd64.deb
       9d1dc163856f03c8d468d5e18d073bfffc2b1f160829300c1fcfea00173985b3  dbus_1.12.2-1ubuntu1_amd64.deb
       cdc1459b505f3de47d7fa28e46ba07ba7557b88339a549a306630a000f067447  debconf-i18n_1.5.66_all.deb
@@ -490,6 +490,6 @@
 - cache_common_manifest: ''
 - cache_package_manifest: ''
 - release: 0.16.1.0-win-signed
-- name: dash-win-signer
+- name: amero-win-signer
 - type: build
 - optionals: 

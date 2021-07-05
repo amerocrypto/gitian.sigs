@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    9943482ffcaa10fd7feb4d76e1347276445cb0069df08eb17742ff9e003753ae  dash-0.12.0-osx-unsigned.dmg
-    16afb6fd6262b3dfd99058934d67459469b9d4ce79da1042d5bbb5f82520b03b  dash-0.12.0-osx-unsigned.tar.gz
-    f427bf9d345e4651133d97bc69eeba5074099eb3c0dd0ddc137b60910b8b2d13  dash-0.12.0-osx64.tar.gz
-    a471233ccb139e31e71775c1abaa44cfb85772399dc8505640645f69535d2d02  src/dash-0.12.0.tar.gz
+    9943482ffcaa10fd7feb4d76e1347276445cb0069df08eb17742ff9e003753ae  amero-0.12.0-osx-unsigned.dmg
+    16afb6fd6262b3dfd99058934d67459469b9d4ce79da1042d5bbb5f82520b03b  amero-0.12.0-osx-unsigned.tar.gz
+    f427bf9d345e4651133d97bc69eeba5074099eb3c0dd0ddc137b60910b8b2d13  amero-0.12.0-osx64.tar.gz
+    a471233ccb139e31e71775c1abaa44cfb85772399dc8505640645f69535d2d02  src/amero-0.12.0.tar.gz
 - in_manifest: |-
-    dc45c0be47465fc62d9cf55a718edebeba35336ae6f235b0032f43a4423d8d11  dash-osx-0.12-desc.yml
+    dc45c0be47465fc62d9cf55a718edebeba35336ae6f235b0032f43a4423d8d11  amero-osx-0.12-desc.yml
     c09070c0c7692cec32bbb2b58507409b9e803975229a4bfae7c04a291cebc698  MacOSX10.7.sdk.tar.gz
-    git:7154cdf51bbe02df7f996eaffef586e5ce24179c dash
+    git:7154cdf51bbe02df7f996eaffef586e5ce24179c amero
 - base_manifests: !omap
   - precise-amd64: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
@@ -51,7 +51,7 @@
       62e8a4cbc565835ee344cd4abfa25c56478b32e7561964170b2fd7c881ea93bd  cpp_4%3a4.6.3-1ubuntu5_amd64.deb
       32d604bc1c307a9d98fc71015fd387b35e857273f64106852bb3343d1110b0cc  cron_3.0pl1-120ubuntu3_amd64.deb
       da50a76a7727908d425a26252d8b87dc742919f9cec2103697e3a18cb9f5dfc9  cron_3.0pl1-120ubuntu4_amd64.deb
-      f239880c28adb06d164f1533a2f3d8b78607bb4ad91b9a3dba161675b01d06cf  dash_0.5.7-2ubuntu2_amd64.deb
+      f239880c28adb06d164f1533a2f3d8b78607bb4ad91b9a3dba161675b01d06cf  amero_0.5.7-2ubuntu2_amd64.deb
       f17ae604de9dffae050053a3f937c5959a78cb8ba3435cddff682b2ee58ab6b2  debconf-i18n_1.5.42ubuntu1_all.deb
       4cbd79672c600fece1a39e7c37974a7a9be78e9ff45e376e9b48beaf67b2a89c  debconf_1.5.42ubuntu1_all.deb
       64e958bee37b656227e3be1549d230ba130b30752c321db157958105e956cecf  debianutils_4.2.1ubuntu2_amd64.deb
@@ -502,6 +502,6 @@
     56a7cb5c3642dcb92061a0872425863ecac690cd2f06b6afcea99d24df65c782  x86_64-apple-darwin11/qt/qt-5.2.1-057ba3b78e4.tar.gz
     56a7cb5c3642dcb92061a0872425863ecac690cd2f06b6afcea99d24df65c782  x86_64-apple-darwin11/qt/qt-5.2.1-6f392edfed6.tar.gz
 - release: 0.12.0.56-osx-unsigned
-- name: dash-osx-0.12
+- name: amero-osx-0.12
 - type: build
 - optionals: 
