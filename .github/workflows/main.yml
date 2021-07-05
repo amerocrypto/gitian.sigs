@@ -11,3 +11,10 @@ with:
   pattern: ''
   string: 'dash'
   replace-with: 'amero'
+
+  - name: Replace string
+uses: frabert/replace-string-action@v2.0
+with:
+  pattern: ''
+  string: 'Dash'
+  replace-with: 'Amero'
