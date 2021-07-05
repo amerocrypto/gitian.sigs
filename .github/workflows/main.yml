@@ -1,0 +1,13 @@
+- name: Replace string
+uses: frabert/replace-string-action@v2.0
+with:
+  pattern: ''
+  string: 'dashd'
+  replace-with: 'amerox'
+  
+  - name: Replace string
+uses: frabert/replace-string-action@v2.0
+with:
+  pattern: ''
+  string: 'dash'
+  replace-with: 'amero'
